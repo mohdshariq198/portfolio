@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Mohd Shariq, Software Test Engineer">
+  <title>About | Mohd Shariq Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html" aria-label="Mohd Shariq Portfolio home"><span class="brand-mark">S</span><span>Mohd Shariq Portfolio<span class="brand-dot">.</span></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button><nav class="site-nav" id="site-nav" aria-label="Main navigation"><a class="nav-link" href="index.html">Home</a><a class="nav-link active" href="about.html">About</a><a class="nav-link" href="projects.html">Projects</a><a class="nav-link" href="contact.html">Contact</a></nav></div></header>
+  <main>
+    <section class="page-intro container reveal"><p class="eyebrow"><span class="eyebrow-line"></span> A little context</p><h1>Curious by nature.<br><em>Precise by practice.</em></h1><p class="intro-text"><strong>I help teams build software they can confidently release.</strong></p><p class="intro-text">I'm a QA Engineer with experience across <strong>healthcare, banking, and enterprise applications</strong>, specializing in manual testing, API validation, database testing, regression testing, and quality-focused collaboration.</p><p class="intro-text">I approach testing from three perspectives: <strong>the user, the business, and the technology</strong>. My goal isn't simply to find bugs - it's to uncover risks early, validate critical workflows, and help teams deliver reliable products.</p></section>
+    <section class="about-content container">
+      <div class="about-story reveal"><p class="section-kicker">My approach</p><h2>Quality is not a final checkpoint. It is a team habit.</h2><p>My experience includes healthcare and banking products, where accuracy, privacy, and clear user journeys matter. I enjoy asking the awkward questions early, tracing a workflow from the first click to the last response, and turning findings into improvements the whole team can act on.</p><p>In healthcare, I tested patient details and appointment modules. In banking, I verified loan terms and conditions for different US states against the website implementation, helping ensure that customers saw accurate, state-specific information.</p></div>
+      <div class="skills-panel reveal reveal-delay"><p class="section-kicker">Toolkit</p><div class="skill-group"><button class="toolkit-button" type="button" data-toolkit="testing" aria-haspopup="dialog"><span>Testing</span><span aria-hidden="true">&#8599;</span></button><div class="tag-list"><span>Manual testing</span><span>Functional Testing</span><span>Regression Testing</span><span>Exploratory Testing</span><span>Smoke Testing</span><span>Cross-browser Testing</span></div></div><div class="skill-group domain-group"><button class="toolkit-button" type="button" data-toolkit="domains" aria-haspopup="dialog"><span>Domains</span><span aria-hidden="true">&#8599;</span></button><div class="domain-item"><strong>Healthcare &amp; Eyecare</strong><p>Patient management, appointment workflows, healthcare data validation, and end-to-end functional testing.</p></div><div class="domain-item"><strong>Banking &amp; Financial Services</strong><p>Loan-related workflows, terms &amp; conditions validation, state-specific rule verification, and web application testing.</p></div><div class="domain-item"><strong>Enterprise &amp; SaaS Applications</strong><p>Business workflows, role-based scenarios, API integrations, data validation, regression, and end-to-end testing.</p></div></div><div class="skill-group"><button class="toolkit-button" type="button" data-toolkit="tools" aria-haspopup="dialog"><span>Tools</span><span aria-hidden="true">&#8599;</span></button><div class="tag-list"><span>Postman - API testing</span><span>pgAdmin - Database testing</span><span>Jira - Bug tracking</span><span>Jira - User story tracking</span></div></div><div class="skill-group"><button class="toolkit-button" type="button" data-toolkit="technical" aria-haspopup="dialog"><span>Technical</span><span aria-hidden="true">&#8599;</span></button><div class="tag-list"><span>Selenium</span><span>SQL</span><span>JavaScript</span><span>Git</span></div></div></div>
+    </section>
+    <div class="toolkit-modal" id="toolkit-modal" role="dialog" aria-modal="true" aria-labelledby="toolkit-modal-title" hidden>
+      <div class="toolkit-modal-backdrop" data-modal-close></div>
+      <div class="toolkit-modal-content"><button class="modal-close" type="button" aria-label="Close toolkit details" data-modal-close>&times;</button><p class="section-kicker" id="toolkit-modal-label">Toolkit</p><h2 id="toolkit-modal-title">Testing</h2><p id="toolkit-modal-description"></p><ul id="toolkit-modal-list"></ul></div>
+    </div>
+    <section class="qualifications-section">
+      <div class="container">
+        <div class="qualifications-heading"><div><p class="section-kicker">Education</p><h2>Qualifications</h2></div><p>Academic foundations that shaped my technical and analytical approach.</p></div>
+        <div class="qualification-list">
+          <article class="qualification-item"><span class="qualification-year">2020</span><div><p class="qualification-type">Bachelor of Technology</p><h3>B.Tech in Electrical Engineering</h3><p>Jamia Millia Islamia, New Delhi, India 110025</p><div class="institution-note"><strong>About the institution</strong><span>Jamia Millia Islamia is a central university in New Delhi known for multidisciplinary higher education, engineering, research, and professional programs.</span></div></div></article>
+          <article class="qualification-item"><span class="qualification-year">2015</span><div><p class="qualification-type">Diploma</p><h3>Diploma in Refrigeration and Air Conditioning</h3><p>Aligarh Muslim University (AMU), Aligarh, India</p><div class="institution-note"><strong>About the institution</strong><span>Aligarh Muslim University is a prominent public central university in Aligarh, Uttar Pradesh, offering education and research across technical, scientific, and professional disciplines.</span></div></div></article>
+          <article class="qualification-item"><span class="qualification-year">2012</span><div><p class="qualification-type">Senior Secondary</p><h3>12th</h3><p>M.G.H.M. Inter College, Marehra, Etah</p></div></article>
+          <article class="qualification-item"><span class="qualification-year">2010</span><div><p class="qualification-type">Secondary</p><h3>10th</h3><p>M.G.H.M. Inter College, Marehra, Etah</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="dream-companies-section">
+      <div class="container">
+        <div class="dream-companies-heading"><div><p class="section-kicker">Career goals</p><h2>Companies I would love to grow with</h2></div><p>Explore the kind of work and quality challenges each company represents.</p></div>
+        <div class="company-layout">
+          <div class="company-list" role="list" aria-label="Dream companies">
+            <button class="company-button selected" type="button" role="listitem" data-company="accenture" aria-expanded="true">Accenture <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="amazon" aria-expanded="false">Amazon <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="microsoft" aria-expanded="false">Microsoft <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="google" aria-expanded="false">Google <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="facebook" aria-expanded="false">Facebook <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="apple" aria-expanded="false">Apple <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="ibm" aria-expanded="false">IBM <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="cognizant" aria-expanded="false">Cognizant <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="capgemini" aria-expanded="false">Capgemini <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="hcl" aria-expanded="false">HCL <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="techmahindra" aria-expanded="false">Tech Mahindra <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="ey" aria-expanded="false">EY <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="flipkart" aria-expanded="false">Flipkart <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="tcs" aria-expanded="false">TCS <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="wipro" aria-expanded="false">Wipro <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="infosys" aria-expanded="false">Infosys <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="deloitte" aria-expanded="false">Deloitte <span aria-hidden="true">&#8599;</span></button>
+            <button class="company-button" type="button" role="listitem" data-company="mahindra" aria-expanded="false">Mahindra <span aria-hidden="true">&#8599;</span></button>
+          </div>
+          <article class="company-details" id="company-details" aria-live="polite"><p class="company-industry" id="company-industry">Technology and consulting</p><h3 id="company-name">Accenture</h3><p id="company-description">A global professional services company working across technology, consulting, and digital transformation. Its varied client projects would offer opportunities to apply structured testing across complex products.</p><div class="company-focus"><span>QA connection</span><strong id="company-focus">Enterprise web applications and client solutions</strong></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="experience-section">
+      <div class="container">
+        <div class="experience-heading"><div><p class="section-kicker">Professional experience</p><h2>Building confidence at GlobalLogic</h2></div><p>9 Dec 2020 - 6 Jul 2026</p></div>
+        <article class="experience-card">
+          <div class="experience-header"><div><p class="experience-company">GlobalLogic Technologies India Private Limited</p><h3>Software Test Engineer</h3></div><span class="experience-location">India</span></div>
+          <p class="experience-summary">During my time at GlobalLogic, I worked as a QA Engineer focused on delivering reliable, high-quality software through structured testing, defect prevention, and test automation. I collaborated closely with developers, product teams, and business stakeholders to understand requirements, identify potential risks, and ensure applications performed as expected across different scenarios.</p>
+          <div class="delivery-grid">
+            <div><p class="section-kicker">What I delivered</p><ul class="responsibility-list"><li><strong>End-to-end quality assurance:</strong> Planned and executed functional, regression, integration, UI, and end-to-end testing.</li><li><strong>Test strategy and execution:</strong> Created test scenarios, test cases, and test plans from business and technical requirements.</li><li><strong>API quality validation:</strong> Tested REST APIs using Postman, validating endpoints, request and response data, authentication, error handling, and business logic.</li><li><strong>Database validation:</strong> Used SQL, PostgreSQL, and MS SQL to verify backend data integrity and accurate data flow.</li></ul></div>
+            <div><p class="section-kicker">More responsibilities</p><ul class="responsibility-list"><li><strong>Test automation:</strong> Developed and maintained automated scripts using Java, Selenium WebDriver, and TestNG to reduce repetitive manual testing.</li><li><strong>Defect management:</strong> Identified, documented, prioritized, and tracked defects in JIRA through resolution and retesting.</li><li><strong>Release confidence:</strong> Supported regression cycles, UAT, and release validation for stable, production-ready releases.</li><li><strong>Agile collaboration:</strong> Participated in sprint planning, requirement discussions, defect triage, and daily QA activities.</li></ul></div>
+          </div>
+          <blockquote>I do not just test whether a feature works - I focus on understanding how it can fail, identifying risks early, and helping teams deliver software that users can trust.</blockquote>
+          <div class="client-value"><p class="section-kicker">Value I bring to clients</p><p>My experience helps me approach products from a user, business, and technical perspective. I bring a structured QA approach to help identify issues earlier, reduce release risks, and deliver a better user experience.</p><div class="tag-list"><span>Manual Testing</span><span>API Testing</span><span>Automation Testing</span><span>Selenium</span><span>Java</span><span>TestNG</span><span>Postman</span><span>SQL</span><span>Database Testing</span><span>JIRA</span><span>Regression Testing</span><span>Agile / Scrum</span></div></div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-wrap"><p>&copy; 2026 Mohd Shariq Portfolio. Built with care.</p><div class="footer-links"><a href="mailto:mohdshariq198@gmail.com">Email</a><a href="tel:+917417597246">Call</a><a href="https://github.com/mohdshariq198/" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/mohd-shariq-02238114a/" target="_blank" rel="noreferrer">LinkedIn</a></div></div></footer>
+</body>
+</html>
