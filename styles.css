@@ -517,9 +517,9 @@
 .certificate-modal-content {
   position: relative;
 
-  width: min(950px, 100%);
+  width: min(850px, 850px);
 
-  max-height: 65vh;
+  max-height: 45vh;
 
   overflow: auto;
 
