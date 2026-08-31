@@ -8,6 +8,7 @@ A beginner-friendly static portfolio website for Mohd Shariq, QA Engineer.
 - `about.html` - background, skills, and experience
 - `projects.html` - QA project cards
 - `contact.html` - contact form and social links
+- `certificates.html` - about my certificates
 - `styles.css` - shared responsive styles
 - `script.js` - mobile navigation and form feedback
 
